@@ -1,0 +1,54 @@
+.app {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.app--button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  background-color: green;
+  cursor: pointer;
+}
+
+.app--button__text {
+  font-weight: bold;
+  color: black;
+}
+
+.app--button__pink {
+  background-color: pink;
+}
+.app--button__red {
+  background-color: red;
+}
+
+.app--button:hover {
+  background-color: lightgreen;
+}
+
+.app--button__delete {
+  background-color: red;
+}
+
+.app--button__delete:hover {
+  background-color: lightcoral;
+}
+
+.card {
+  width: 360px;
+  box-shadow: 0px 2px 15px gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #0a0a0a;
+}
+
+.card--img {
+  min-width: 360px;
+  min-height: 360px;
+}
