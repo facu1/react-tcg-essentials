@@ -10,6 +10,7 @@ import UseRef from "./components/UseRef";
 import UseCallback from "./components/UseCallback";
 import CustomHook from "./components/CustomHook";
 import CustomHookForm from "./components/CustomHookForm";
+import ReactRouter from "./components/ReactRouter";
 
 const theme = {
   primary: "green",
@@ -28,6 +29,7 @@ function App() {
     "use-callback",
     "custom-hook",
     "custom-hook-form",
+    "react-router",
   ];
 
   const handleRadioChange = ({ target: { value } }) =>
@@ -43,6 +45,7 @@ function App() {
     "use-callback": <UseCallback />,
     "custom-hook": <CustomHook />,
     "custom-hook-form": <CustomHookForm />,
+    "react-router": <ReactRouter />,
   };
 
   return (
