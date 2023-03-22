@@ -11,6 +11,8 @@ import UseCallback from "./components/UseCallback";
 import CustomHook from "./components/CustomHook";
 import CustomHookForm from "./components/CustomHookForm";
 import ReactRouter from "./components/ReactRouter";
+import SimplifiedRedux from "./components/SimplifiedRedux";
+import Redux from "./components/Redux";
 
 const theme = {
   primary: "green",
@@ -30,6 +32,8 @@ function App() {
     "custom-hook",
     "custom-hook-form",
     "react-router",
+    "simplified-redux",
+    "redux",
   ];
 
   const handleRadioChange = ({ target: { value } }) =>
@@ -46,6 +50,8 @@ function App() {
     "custom-hook": <CustomHook />,
     "custom-hook-form": <CustomHookForm />,
     "react-router": <ReactRouter />,
+    "simplified-redux": <SimplifiedRedux />,
+    redux: <Redux />,
   };
 
   return (
